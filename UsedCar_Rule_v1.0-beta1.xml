@@ -1,0 +1,846 @@
+<profile version="1.0">
+  <option name="myName" value="UsedCar_Rule_v1.0-beta1" />
+  <inspection_tool class="AbstractMethodCallInConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AccessStaticViaInstance" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AccessToNonThreadSafeStaticFieldFromInstance" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="nonThreadSafeClasses">
+      <value />
+    </option>
+    <option name="nonThreadSafeTypes" value="" />
+  </inspection_tool>
+  <inspection_tool class="AccessToStaticFieldLockedOnInstance" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidElementNotAllowed" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAaptCrash" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAccidentalOctal" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAdapterViewChildren" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAddJavascriptInterface" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAllCaps" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAllowBackup" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAlwaysShowAction" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAnimatorKeep" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppCompatCustomView" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppCompatResource" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppIndexingService" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppLinkUrlError" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppLinksAutoVerifyError" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAppLinksAutoVerifyWarning" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAssert" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAuthLeak" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintAutofill" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintBackButton" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintBottomAppBar" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintButtonCase" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintButtonOrder" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintButtonStyle" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintByteOrderMark" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintClickableViewAccessibility" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintCommitPrefEdits" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintCommitTransaction" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintConstantLocale" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintContentDescription" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintConvertToWebp" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDeprecatedProvider" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDiffUtilEquals" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDrawAllocation" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDuplicateIds" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDuplicatePlatformClasses" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintDuplicateStrings" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintEasterEgg" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintEnforceUTF8" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintExportedContentProvider" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintExportedPreferenceActivity" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintExportedReceiver" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintFontValidationError" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintFontValidationWarning" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintFullBackupContent" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGetContentDescriptionOverride" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGetInstance" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGoogleAppIndexingApiWarning" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGoogleAppIndexingWarning" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGradleCompatible" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGradleDynamicVersion" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGradleOverrides" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGradlePluginVersion" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGrantAllUris" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintGridLayout" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintHalfFloat" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintHandlerLeak" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintHardcodedText" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintHighAppVersionCode" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconColors" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconDensities" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconDipSize" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconDuplicates" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconDuplicatesConfig" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconExpectedSize" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconExtension" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconLauncherShape" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconLocation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconMissingDensityFolder" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconNoDpi" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIconXmlAndPng" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIgnoreWithoutReason" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintImplicitSamInstance" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintImpliedTouchscreenHardware" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIncludeLayoutParam" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInconsistentArrays" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInconsistentLayout" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInlinedApi" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInnerclassSeparator" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInstantApps" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintIntentReset" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidAnalyticsName" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidId" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidImeActionId" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidUsesTagAttribute" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidWakeLockTag" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintInvalidWearFeatureAttribute" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintKeyboardInaccessibleWidget" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintKotlinPropertyAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLabelFor" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLambdaLast" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLibraryCustomView" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLintBaseline" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLocaleFolder" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLogConditional" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLogTagMismatch" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintLongLogTag" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMangledCRLF" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintManifestResource" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMenuTitle" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMinSdkTooLow" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMipmapIcons" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingApplicationIcon" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingBackupPin" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingConstraints" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingDefaultResource" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingFirebaseInstanceTokenRefresh" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingIntentFilterForMediaSearch" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingLeanbackLauncher" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingLeanbackSupport" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingMediaBrowserServiceIntentFilter" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingOnPlayFromSearch" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingPrefix" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingTvBanner" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMissingVersion" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMockLocation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintMultipleUsesSdk" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNegativeMargin" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNetworkSecurityConfig" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNewApi" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNewerVersionAvailable" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNfcTechWhitespace" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNoHardKeywords" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNotSibling" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintNotificationIconCompatibility" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintObjectAnimatorBinding" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintOldTargetApi" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintOnClick" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintOrientation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintParcelCreator" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPendingBindings" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPermissionImpliesUnsupportedChromeOsHardware" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPermissionImpliesUnsupportedHardware" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPinSetExpiry" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPrivateApi" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPrivateResource" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintProguardSplit" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintPropertyEscape" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintProtectedPermissions" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintProxyPassword" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintRecycle" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintReferenceType" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintRelativeOverlap" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintRequiredSize" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintResAuto" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintResourceAsColor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintRtlCompat" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintRtlEnabled" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintRtlHardcoded" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintRtlSymmetry" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintSQLiteString" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSSLCertificateSocketFactoryGetInsecure" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintScrollViewSize" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSdCardPath" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSelectableText" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSetJavaScriptEnabled" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSetTextI18n" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="AndroidLintSignatureOrSystemPermissions" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSlices" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSmallSp" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintStateListReachable" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintStaticFieldLeak" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintStopShip" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintStringShouldBeInt" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSupportAnnotationUsage" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSuspicious0dp" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintSyntheticAccessor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTestAppLink" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTextFields" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTranslucentOrientation" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTypographyDashes" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTypographyEllipsis" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTypographyFractions" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTypographyOther" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintTypographyQuotes" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUniqueConstants" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnknownId" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnknownIdInLayout" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnknownNullness" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnlocalizedSms" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnprotectedSMSBroadcastReceiver" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnsafeProtectedBroadcastReceiver" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnsupportedChromeOsHardware" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnsupportedTvHardware" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnusedIds" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnusedNavigation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUnusedResources" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUsableSpace" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUseOfBundledGooglePlayServices" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUsesMinSdkAttributes" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUsingC2DM" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintUsingHttp" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintValidActionsXml" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintValidRestrictions" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintVectorDrawableCompat" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintVectorRaster" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintViewConstructor" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintViewTag" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintVisibleForTests" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWearStandaloneAppFlag" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWearableBindListener" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWebpUnsupported" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWifiManagerPotentialLeak" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWrongCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWrongCase" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWrongConstant" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWrongRegion" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AndroidLintWrongThreadInterprocedural" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="AndroidMissingOnClickHandler" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AndroidNonConstantResIdsInSwitch" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AnonymousClassComplexity" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="AnonymousClassMethodCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="1" />
+  </inspection_tool>
+  <inspection_tool class="AnonymousInnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ArrayCreationWithoutNewKeyword" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ArrayEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AssertMessageNotString" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AssertWithSideEffects" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AssertionCanBeIf" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="AssignmentOrReturnOfFieldWithMutableType" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="AwaitNotInLoop" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="AwaitWithoutCorrespondingSignal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BlockMarkerComments" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BooleanExpressionMayBeConditional" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="BoundedWildcard" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="BreakStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="BreakStatementWithLabel" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="BusyWait" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CStyleArrayDeclaration" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="CallToNativeMethodWhileLocked" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CallToSimpleGetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreGetterCallsOnOtherObjects" value="false" />
+    <option name="onlyReportPrivateGetter" value="false" />
+  </inspection_tool>
+  <inspection_tool class="CallToSimpleSetterInClass" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreSetterCallsOnOtherObjects" value="false" />
+    <option name="onlyReportPrivateSetter" value="false" />
+  </inspection_tool>
+  <inspection_tool class="CallToStringConcatCanBeReplacedByOperator" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CanBeFinal" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="REPORT_CLASSES" value="false" />
+    <option name="REPORT_METHODS" value="false" />
+    <option name="REPORT_FIELDS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="CapturingCleaner" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="CastConflictsWithInstanceof" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CastToIncompatibleInterface" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ChainedEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ChainedMethodCall" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="m_ignoreFieldInitializations" value="true" />
+    <option name="m_ignoreThisSuperCalls" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ChangeToMethod" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ChangeToOperator" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="CheckDtdRefs" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ClashingGetters" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="ClashingTraitMethods" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ClassComplexity" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="80" />
+  </inspection_tool>
+  <inspection_tool class="ClassCoupling" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_includeJavaClasses" value="false" />
+    <option name="m_includeLibraryClasses" value="false" />
+    <option name="m_limit" value="15" />
+  </inspection_tool>
+  <inspection_tool class="ClassHasNoToStringMethod" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="excludeClassNames" value="" />
+    <option name="excludeException" value="true" />
+    <option name="excludeDeprecated" value="true" />
+    <option name="excludeEnum" value="false" />
+    <option name="excludeAbstract" value="false" />
+    <option name="excludeTestCode" value="false" />
+    <option name="excludeInnerClasses" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ClassInheritanceDepth" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="2" />
+  </inspection_tool>
+  <inspection_tool class="ClassLoaderInstantiation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ClassNestingDepth" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="1" />
+  </inspection_tool>
+  <inspection_tool class="ClassNewInstance" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CloneableClassInSecureContext" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CollectionAddedToSelf" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="CollectionContainsUrl" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="CollectionsMustHaveInitialCapacity" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ComparableImplementedButEqualsNotOverridden" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="ConditionCoveredByFurtherCondition" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConditionSignal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConditionalCanBePushedInsideExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConditionalExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConfusingOctalEscape" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantAssertCondition" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ConstantExpression" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ConstantOnLHSOfComparison" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="ConstantOnRHSOfComparison" enabled="true" level="INFORMATION" enabled_by_default="true" />
+  <inspection_tool class="ConstructorCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreDeprecatedConstructors" value="false" />
+    <option name="m_limit" value="5" />
+  </inspection_tool>
+  <inspection_tool class="ContinueStatement" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ContinueStatementWithLabel" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CovariantEquals" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CustomClassloader" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CustomSecurityManager" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="CyclomaticComplexity" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="10" />
+  </inspection_tool>
+  <inspection_tool class="DefaultAnnotationParam" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DefaultNotLastCaseInSwitch" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DelegatesTo" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="DesignForExtension" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DivideByZero" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="DoubleBraceInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DoubleCheckedLocking" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreOnVolatileVariables" value="false" />
+  </inspection_tool>
+  <inspection_tool class="DuplicateBooleanBranch" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="DuplicateThrows" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="DynamicRegexReplaceableByCompiledPattern" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EmptyInitializer" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EmptyMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="EmptySynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EqualsAndHashcode" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EqualsCalledOnEnumConstant" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="EqualsHashCodeCalledOnUrl" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExcessiveLambdaUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExplicitArgumentCanBeLambda" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ExtendsThread" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FallthruInSwitchStatement" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldAccessedSynchronizedAndUnsynchronized" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="countGettersAndSetters" value="false" />
+  </inspection_tool>
+  <inspection_tool class="FieldCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_countConstantFields" value="false" />
+    <option name="m_considerStaticFinalFieldsConstant" value="false" />
+    <option name="myCountEnumConstants" value="false" />
+    <option name="m_limit" value="10" />
+  </inspection_tool>
+  <inspection_tool class="FieldMayBeFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="FieldNotUsedInToString" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="FinalMethodInFinalClass" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="FinalPrivateMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="Finalize" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreTrivialFinalizers" value="true" />
+  </inspection_tool>
+  <inspection_tool class="FinalizeNotProtected" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="FunctionalExpressionCanBeFolded" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="GrDeprecatedAPIUsage" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrEqualsBetweenInconvertibleTypes" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrFinalVariableAccess" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrMethodMayBeStatic" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrPackage" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrReassignedInClosureLocalVar" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrUnnecessaryAlias" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrUnnecessaryDefModifier" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrUnnecessaryPublicModifier" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrUnnecessarySemicolon" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GrUnresolvedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyAccessToStaticFieldLockedOnInstance" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyAccessibility" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyAssignabilityCheck" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyAssignmentCanBeOperatorAssignment" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="ignoreLazyOperators" value="true" />
+    <option name="ignoreObscureOperators" value="false" />
+  </inspection_tool>
+  <inspection_tool class="GroovyAssignmentToForLoopParameter" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyAssignmentToMethodParameter" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyBreak" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyBusyWait" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyConditional" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyConditionalCanBeConditionalCall" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyConditionalCanBeElvis" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyConditionalWithIdenticalBranches" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyConstantConditional" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyConstantIfStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyConstantNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="[A-Z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyConstructorNamedArguments" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyContinue" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyContinueOrBreakFromFinallyBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyDivideByZero" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyDocCheck" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyDoubleCheckedLocking" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="ignoreOnVolatileVariables" value="false" />
+  </inspection_tool>
+  <inspection_tool class="GroovyDoubleNegation" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyDuplicateSwitchBranch" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyEmptyCatchBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyEmptyFinallyBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyEmptyStatementBody" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyEmptySyncBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyEmptyTryBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyFallthrough" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyGStringKey" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyIfStatementWithIdenticalBranches" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyIfStatementWithTooManyBranches" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="GroovyInArgumentCheck" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyInfiniteLoopStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyInfiniteRecursion" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyInstanceMethodNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyInstanceVariableNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="m_[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="1" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyLabeledStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyListGetCanBeKeyedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyListSetCanBeKeyedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyLocalVariableNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyLoopStatementThatDoesntLoop" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyMapGetCanBeKeyedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyMapPutCanBeKeyedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyMethodParameterCount" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="5" />
+  </inspection_tool>
+  <inspection_tool class="GroovyMethodWithMoreThanThreeNegations" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyMissingReturnStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyMultipleReturnPointsPerMethod" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="1" />
+  </inspection_tool>
+  <inspection_tool class="GroovyNegatedConditional" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNegatedIf" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNestedAssignment" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNestedConditional" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNestedSwitch" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNestedSynchronizedStatement" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNonShortCircuitBoolean" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyNotifyWhileNotSynchronized" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyOctalInteger" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyOverlyComplexArithmeticExpression" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="GroovyOverlyComplexBooleanExpression" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="GroovyOverlyComplexMethod" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="10" />
+  </inspection_tool>
+  <inspection_tool class="GroovyOverlyLongMethod" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="30" />
+  </inspection_tool>
+  <inspection_tool class="GroovyOverlyNestedMethod" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_limit" value="5" />
+  </inspection_tool>
+  <inspection_tool class="GroovyParameterNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyPointlessArithmetic" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyPointlessBoolean" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyPublicFieldAccessedInSynchronizedContext" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyRangeTypeCheck" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyResultOfAssignmentUsed" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyResultOfIncrementOrDecrementUsed" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyResultOfObjectAllocationIgnored" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyReturnFromClosureCanBeImplicit" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyReturnFromFinallyBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovySillyAssignment" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyStaticMethodNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovyStaticVariableNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="m_regex" value="s_[a-z][A-Za-z\d]*" />
+    <option name="m_minLength" value="4" />
+    <option name="m_maxLength" value="32" />
+  </inspection_tool>
+  <inspection_tool class="GroovySwitchStatementWithNoDefault" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovySynchronizationOnNonFinalField" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovySynchronizationOnThis" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovySynchronizationOnVariableInitializedWithLiteral" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovySynchronizedMethod" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovySystemRunFinalizersOnExit" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyThreadStopSuspendResume" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyThrowFromFinallyBlock" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyTrivialConditional" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyTrivialIf" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUncheckedAssignmentOfMemberOfRawType" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnconditionalWait" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyUnnecessaryContinue" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnnecessaryReturn" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnreachableStatement" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnsynchronizedMethodOverridesSynchronizedMethod" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUntypedAccess" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyUnusedAssignment" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnusedCatchParameter" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnusedDeclaration" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyUnusedIncOrDec" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyVariableCanBeFinal" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyVariableNotAssigned" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="GroovyWaitCallNotInLoop" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyWaitWhileNotSynchronized" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="GroovyWhileLoopSpinsOnField" enabled="false" level="SERVER PROBLEM" enabled_by_default="false">
+    <option name="ignoreNonEmtpyLoops" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ImplicitCallToSuper" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="m_ignoreForObjectSubclasses" value="false" />
+  </inspection_tool>
+  <inspection_tool class="InnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InnerClassReferencedViaSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="InstanceVariableInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignorePrimitives" value="false" />
+  </inspection_tool>
+  <inspection_tool class="InstanceVariableUninitializedUse" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignorePrimitives" value="false" />
+    <option name="annotationNamesString" value="" />
+  </inspection_tool>
+  <inspection_tool class="JDBCExecuteWithNonConstantString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JDBCPrepareStatementWithNonConstantString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="Java9RedundantRequiresStatement" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="Java9ReflectionClassVisibility" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JavaLangInvokeHandleSignature" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JavaReflectionInvocation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JavaReflectionMemberAccess" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JavaStylePropertiesInvocation" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="JniFunctionCorrectness" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="JniGetMethod" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="JniMissingFunction" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="JniOnload" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="JniParameters" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="JoinDeclarationAndAssignmentJava" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="KeySetIterationMayUseEntrySet" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LengthOneStringInIndexOf" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LengthOneStringsInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ListIndexOfReplaceableByContains" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="LiteralAsArgToStringEquals" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="LoadLibraryWithNonConstantString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="LocalCanBeFinal" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="REPORT_VARIABLES" value="true" />
+    <option name="REPORT_PARAMETERS" value="true" />
+  </inspection_tool>
+  <inspection_tool class="MalformedXPath" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MapReplaceableByEnumMap" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MetaAnnotationWithoutRuntimeRetention" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MethodCount" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="20" />
+    <option name="ignoreGettersAndSetters" value="false" />
+    <option name="ignoreOverridingMethods" value="false" />
+  </inspection_tool>
+  <inspection_tool class="MethodCoupling" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_includeJavaClasses" value="false" />
+    <option name="m_includeLibraryClasses" value="false" />
+    <option name="m_limit" value="10" />
+  </inspection_tool>
+  <inspection_tool class="MethodMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_onlyPrivateOrFinal" value="false" />
+    <option name="m_ignoreEmptyMethods" value="true" />
+  </inspection_tool>
+  <inspection_tool class="MethodMayBeSynchronized" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MethodWithMultipleLoops" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MismatchedCollectionQueryUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="queryNames">
+      <value />
+    </option>
+    <option name="updateNames">
+      <value />
+    </option>
+    <option name="ignoredClasses">
+      <value />
+    </option>
+  </inspection_tool>
+  <inspection_tool class="MismatchedStringBuilderQueryUpdate" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MissingOverrideAnnotation" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreObjectMethods" value="true" />
+    <option name="ignoreAnonymousClassMethods" value="false" />
+  </inspection_tool>
+  <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_requireAnnotationsFirst" value="true" />
+  </inspection_tool>
+  <inspection_tool class="MisspelledEquals" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="MultiCatchCanBeSplit" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MultipleDeclaration" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreForLoopDeclarations" value="true" />
+  </inspection_tool>
+  <inspection_tool class="MultipleRepositoryUrls" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="MultipleReturnPointsPerMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="ignoreGuardClauses" value="false" />
+    <option name="ignoreEqualsMethod" value="false" />
+    <option name="m_limit" value="1" />
+  </inspection_tool>
+  <inspection_tool class="MultipleTopLevelClassesInFile" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="MultipleTypedDeclaration" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NakedNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NestedMethodCall" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="m_ignoreFieldInitializations" value="true" />
+  </inspection_tool>
+  <inspection_tool class="NestedSynchronizedStatement" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NestedTryStatement" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NestingDepth" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="5" />
+  </inspection_tool>
+  <inspection_tool class="NewGroovyClassNamingConvention" enabled="false" level="SERVER PROBLEM" enabled_by_default="false" />
+  <inspection_tool class="NewInstanceOfSingleton" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="NoExplicitFinalizeCalls" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonCommentSourceStatements" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="30" />
+  </inspection_tool>
+  <inspection_tool class="NonFinalClone" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonFinalStaticVariableUsedInClassInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonStaticInnerClassInSecureContext" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonSynchronizedMethodOverridesSynchronizedMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NonThreadSafeLazyInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NotifyCalledOnCondition" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NotifyWithoutCorrespondingWait" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="NullThrown" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectAllocationInLoop" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectEquality" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignoreEnums" value="true" />
+    <option name="m_ignoreClassObjects" value="true" />
+    <option name="m_ignorePrivateConstructors" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ObjectEqualsCanBeEquality" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectInstantiationInEqualsHashCode" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObjectNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreRequiredObsoleteCollectionTypes" value="true" />
+  </inspection_tool>
+  <inspection_tool class="ObviousNullCheck" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="OptionalContainsCollection" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="OverlyComplexBooleanExpression" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_limit" value="3" />
+    <option name="m_ignorePureConjunctionsDisjunctions" value="true" />
+  </inspection_tool>
+  <inspection_tool class="OverlyLongLambda" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="OverridableMethodCallDuringObjectConstruction" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="OverriddenMethodCallDuringObjectConstruction" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="PackageVisibleField" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="PackageVisibleInnerClass" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreEnums" value="false" />
+    <option name="ignoreInterfaces" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ParametersPerConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ParametersPerMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="5" />
+  </inspection_tool>
+  <inspection_tool class="PermissionUsageInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ProtectedField" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="ProtectedInnerClass" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreEnums" value="false" />
+    <option name="ignoreInterfaces" value="false" />
+  </inspection_tool>
+  <inspection_tool class="PublicField" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreEnums" value="false" />
+    <option name="ignorableAnnotations">
+      <value />
+    </option>
+  </inspection_tool>
+  <inspection_tool class="PublicFieldAccessedInSynchronizedContext" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="PublicInnerClass" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreEnums" value="false" />
+    <option name="ignoreInterfaces" value="false" />
+  </inspection_tool>
+  <inspection_tool class="PublicStaticArrayField" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="PublicStaticCollectionField" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="RandomDoubleForRandomInteger" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantComparatorComparing" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantExplicitClose" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantFieldInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantImplements" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreSerializable" value="false" />
+    <option name="ignoreCloneable" value="false" />
+  </inspection_tool>
+  <inspection_tool class="RedundantLambdaParameterType" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantStreamOptionalCall" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="RedundantThrows" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReturnOfInnerClass" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReturnThis" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="RuntimeExecWithNonConstantString" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SafeLock" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SameParameterValue" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SameReturnValue" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SecondUnsafeCall" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="SerializableDeserializableClassInSecureContext" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SetReplaceableByEnumSet" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SharedThreadLocalRandom" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SignalWithoutCorrespondingAwait" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SillyAssignment" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="SimplifiableAnnotation" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="SimplifiableBooleanExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifiableConditionalExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifiableIfStatement" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifyCollector" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifyOptionalCallChains" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SimplifyStreamApiCallChains" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SingletonConstructor" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="SizeReplaceableByIsEmpty" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SleepWhileHoldingLock" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StaticCollection" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreWeakCollections" value="false" />
+  </inspection_tool>
+  <inspection_tool class="StaticVariableInitialization" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignorePrimitives" value="false" />
+  </inspection_tool>
+  <inspection_tool class="StaticVariableUninitializedUse" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignorePrimitives" value="false" />
+  </inspection_tool>
+  <inspection_tool class="StringBufferField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringBufferMustHaveInitialCapacity" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringBufferToStringInConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringEqualsEmptyString" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="StringReplaceableByStringBuffer" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="onlyWarnOnLoop" value="true" />
+  </inspection_tool>
+  <inspection_tool class="SuppressionAnnotation" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SwitchStatementWithConfusingDeclaration" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SynchronizationOnStaticField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SynchronizeOnLock" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SynchronizeOnThis" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SynchronizedMethod" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_includeNativeMethods" value="true" />
+    <option name="ignoreSynchronizedSuperMethods" value="true" />
+  </inspection_tool>
+  <inspection_tool class="SynchronizedOnLiteralObject" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemGC" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemOutErr" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemProperties" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemRunFinalizersOnExit" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="SystemSetSecurityManager" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TailRecursion" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThisEscapedInConstructor" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadDumpStack" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadLocalNotStaticFinal" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadPriority" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadRun" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadStartInConstruction" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadStopSuspendResume" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadWithDefaultRunMethod" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreadYield" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThreeNegationsPerMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_ignoreInEquals" value="true" />
+    <option name="ignoreInAssert" value="false" />
+  </inspection_tool>
+  <inspection_tool class="ThrowablePrintStackTrace" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ThrownExceptionsPerMethod" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="m_limit" value="3" />
+  </inspection_tool>
+  <inspection_tool class="TooBroadCatch" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TooBroadThrows" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TrivialFunctionalExpressionUsage" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TrivialIf" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="TrivialStringConcatenation" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TypeCustomizer" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="UnconditionalWait" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessarilyQualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreStaticFieldAccesses" value="false" />
+    <option name="m_ignoreStaticMethodCalls" value="false" />
+    <option name="m_ignoreStaticAccessFromStaticContext" value="false" />
+  </inspection_tool>
+  <inspection_tool class="UnnecessarilyQualifiedStaticallyImportedElement" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConditionalExpression" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConstantArrayCreationExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryFinalOnLocalVariableOrParameter" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryModuleDependencyInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryQualifiedReference" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryQualifierForThis" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessarySemicolon" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="UnnecessarySuperConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessarySuperQualifier" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryThis" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnnecessaryToStringCall" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedFieldAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedInnerClassAccess" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="ignoreReferencesToLocalInnerClasses" value="false" />
+  </inspection_tool>
+  <inspection_tool class="UnqualifiedMethodAccess" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnqualifiedStaticUsage" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreStaticFieldAccesses" value="false" />
+    <option name="m_ignoreStaticMethodCalls" value="false" />
+    <option name="m_ignoreStaticAccessFromStaticContext" value="false" />
+  </inspection_tool>
+  <inspection_tool class="UnsecureRandomNumberGeneration" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnusedLabel" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="UnusedLibrary" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="UnusedReturnValue" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="UseOfAnotherObjectsPrivateField" enabled="true" level="SERVER PROBLEM" enabled_by_default="true">
+    <option name="ignoreSameClass" value="false" />
+    <option name="ignoreEquals" value="false" />
+  </inspection_tool>
+  <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="VariableNotUsedInsideIf" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="VolatileArrayField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="VolatileLongOrDoubleField" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitCalledOnCondition" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitNotInLoop" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitNotifyNotInSynchronizedContext" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitOrAwaitWithoutTimeout" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitWhileHoldingTwoLocks" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WaitWithoutCorrespondingNotify" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="WeakerAccess" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_MEMBERS" value="true" />
+    <option name="SUGGEST_PACKAGE_LOCAL_FOR_TOP_CLASSES" value="true" />
+    <option name="SUGGEST_PRIVATE_FOR_INNERS" value="false" />
+  </inspection_tool>
+  <inspection_tool class="WrapperTypeMayBePrimitive" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="XmlHighlighting" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="XmlInvalidId" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="XmlPathReference" enabled="true" level="SERVER PROBLEM" enabled_by_default="true" />
+  <inspection_tool class="XmlWrongFileType" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="XmlWrongRootElement" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ZeroLengthArrayInitialization" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="unused" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="LOCAL_VARIABLE" value="true" />
+    <option name="FIELD" value="true" />
+    <option name="METHOD" value="true" />
+    <option name="CLASS" value="true" />
+    <option name="PARAMETER" value="true" />
+    <option name="REPORT_PARAMETER_FOR_PUBLIC_METHODS" value="true" />
+    <option name="ADD_MAINS_TO_ENTRIES" value="true" />
+    <option name="ADD_APPLET_TO_ENTRIES" value="true" />
+    <option name="ADD_SERVLET_TO_ENTRIES" value="true" />
+    <option name="ADD_NONJAVA_TO_ENTRIES" value="true" />
+  </inspection_tool>
+</profile>
