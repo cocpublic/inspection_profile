@@ -1,4 +1,3 @@
-
 # 静态代码检测指引(V1.0-beta1)
 
 ## 版本说明
@@ -70,9 +69,9 @@ Inspection List标记为 绿色
 * Warning 每版本 减少​一定数值20%~30%
 
 
-### 3、第三期阶段：编码完善
+### 3、第三阶段：编码完善
 
-* Error类​​​​ 保持为零​;
+* Error类保持为零​;
 * Warning类 保持在100~400以内​
 * Warkey Warning 每版本 减少10%~20%​
 * Server  problem 按需减少
