@@ -1,6 +1,7 @@
 # 静态代码检测指引(V1.0-beta1)
 
 ## 版本说明
+
 ### v1.0-beta1
 初版，基于Android Studio 3.4 Build AI-183.5429导出并分级，规则1635条；
  
@@ -112,5 +113,18 @@ Inspection List标记为 绿色
 
 
 #### 3、执行扫描
+
 ![选择Profile扫描.png](https://i.loli.net/2019/05/13/5cd94e5841f0525194.png)
 
+用户可以根据自己的需要，选择合适的Scope检测，以下是必要Scope的简述：
+
+* Changed File。变动的文件。
+* Module File。指定模块的文件
+* Project Production Files。项目素有源码文件(不包含Test、依赖库、AAR)
+* Whole File。所有文件。
+
+
+### 附二：增大VM
+
+![](https://cdn.nlark.com/yuque/0/2019/png/208918/1558521899946-dc4edab1-b3f8-491b-b89a-1db1146dba4d.png)
+![](https://cdn.nlark.com/yuque/0/2019/png/208918/1558521905741-a55e2b3a-bc4a-491e-8cf3-5d74177c4163.png)
