@@ -136,3 +136,24 @@ Inspection List标记为 绿色
 根据设备状态指定合适的内存值
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/208918/1558521905741-a55e2b3a-bc4a-491e-8cf3-5d74177c4163.png)
+
+```
+-Xms512m
+-Xmx6g
+-XX:ReservedCodeCacheSize=480m
+-XX:+UseCompressedOops
+-Dfile.encoding=UTF-8
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
+-Dsun.io.useCanonCaches=false
+-Djava.net.preferIPv4Stack=true
+-Djdk.http.auth.tunneling.disabledSchemes=""
+-Djna.nosys=true
+-Djna.boot.library.path=
+
+-da
+-Xverify:none
+
+-XX:ErrorFile=$USER_HOME/java_error_in_studio_%p.log
+-XX:HeapDumpPath=$USER_HOME/java_error_in_studio.hprof
+```
