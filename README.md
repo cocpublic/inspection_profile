@@ -2,7 +2,11 @@
 
 ## 版本说明
 
-### v1.0-beta1
+### v1.0-beta2
+禁用不想关的规则组。
+
+### 历史版本
+v1.0-beta1
 初版，基于Android Studio 3.4 Build AI-183.5429导出并分级，规则1635条；
  
 Inspection List文档链接：https://mubu.com/doc/l8iHAlZvr 密码：3j81
@@ -124,7 +128,7 @@ Inspection List标记为 绿色
 * Whole File。所有文件。
 
 
-### 附二：增大VM
+### 附二：Android Studio 增大Heap内存
 
 ![](https://cdn.nlark.com/yuque/0/2019/png/208918/1558521899946-dc4edab1-b3f8-491b-b89a-1db1146dba4d.png)
 ![](https://cdn.nlark.com/yuque/0/2019/png/208918/1558521905741-a55e2b3a-bc4a-491e-8cf3-5d74177c4163.png)
