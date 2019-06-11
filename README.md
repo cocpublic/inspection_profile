@@ -2,10 +2,17 @@
 
 ## 版本说明
 
-### v1.0-beta2
-禁用不想关的规则组。
+### v1.0-beta3
+
+在beta2的基础上移除以下：
+* Android - Lint - Correctness - ChromeOS组
+* Android - Lint - Correctness - Messages组(format校验除外)
+* Java - Javadoc组
 
 ### 历史版本
+
+**v1.0-beta2**
+禁用不想关的规则组。
 
 **v1.0-beta1**
 初版，基于Android Studio 3.4 Build AI-183.5429导出并分级，规则1635条；
