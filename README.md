@@ -117,7 +117,7 @@ Inspection List标记为 绿色
 本段主要介绍 Android Studio 如何导入自定义自定义 Inspection Profile。
 
 #### 1、获取最新的自定义Inspection Profile
-在git.youxinpai.com对应仓库获取最新的 Inspection profile.xml文件
+在git.xin.com对应仓库获取最新的 Inspection profile.xml文件
 
 #### 2、导入Android Studio
 在Android Studio中 选择 Analyze--Inspect code
